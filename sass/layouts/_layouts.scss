@@ -1,0 +1,19 @@
+@mixin grid-layout() {
+    width: 70%;
+    margin: 0 auto;
+}
+.main-section{
+    background:#fff;
+    margin: 0 auto;
+}
+.main-footer{
+    width:100%;
+    background: #6b76ff;
+}
+.main-footer2{
+    overflow: hidden;
+    z-index: 1000;
+    height:60vh;
+    background:#3333;
+    width: 100%;
+}

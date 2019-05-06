@@ -1,0 +1,44 @@
+.section3{
+    @include grid-layout();
+    .s3-heading{
+        width: 100%;
+        text-align: center;
+        padding:100px 0;
+        h1{
+            color: rgba(10, 3, 3, 0.767);
+            font-family: 'Patua One', cursive;
+        }  
+        p{
+            color: rgb(153, 153, 153);
+            padding:15px 0 0 0;
+        }  
+    }
+    .gallery{
+        margin-top: -75px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        justify-content: space-between;
+        .gallery-card{
+            text-align: center;
+            transition:all 400ms; 
+            padding:15px;
+            
+            &:hover{
+                transform: translateY(-20px);
+            }
+
+            img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+                
+            }
+            h3{
+                font-family:'Patua One', cursive;
+                padding-bottom: 100px;
+            }
+        }
+    }
+}

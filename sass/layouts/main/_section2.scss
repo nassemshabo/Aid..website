@@ -1,0 +1,33 @@
+.section2{
+    @include grid-layout();
+    background:#ffb400;
+    color:#fff;
+    .container-s2{
+        width: 100%;
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        .s2-cards{
+            text-align: center;
+            padding:40px 20px;
+            &:hover{
+                background:#ccc;   
+            }
+            .fas{
+                padding: 15px 0;
+                font-size:50px;
+            }
+            h3{
+                padding:15px 0;
+                font-weight: 900;
+            }
+        }
+        .nth-3{
+            background:#ccc;
+            &:hover{
+                background:#ffb400;
+            }
+        }
+        
+        
+    }
+}

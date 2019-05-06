@@ -1,0 +1,9 @@
+@mixin bobls(){
+                content: "";
+                display:block;
+                width: 10px;
+                height: 10px;
+                background: #ccc;
+                border-radius: 50%;
+                margin: 15px 5px;
+}

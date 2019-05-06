@@ -1,0 +1,36 @@
+.main-header{
+    @include grid-layout(); 
+    .logo{
+        display: inline-block;
+         padding-top:40px;
+         font-size:45px;
+         font-weight: 500;
+         font-family: 'Righteous', cursive;
+         color:#fff;
+         span{
+            color:#ffb400;
+        }
+    }
+    .fixing{
+        display: inline-block;
+        float: right;
+        padding-top:50px;
+        
+        ul{
+            list-style: none;   
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    padding-right:50px;
+                    font-size:20px;
+                    font-weight: 800;
+                    color:#fff;
+                    &:hover{
+                        color:#ffb400;
+                    }
+                }
+            }
+        }
+    }
+ }

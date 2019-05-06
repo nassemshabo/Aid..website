@@ -1,0 +1,29 @@
+.footer1{
+    @include grid-layout();
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 450px;
+    .footer-img{
+        text-align: left;
+        img{
+            width: 100%;
+            margin-top: -160px;
+            
+        }
+    }
+    .footer-story{
+        padding:70px 0 0 20px;
+        h2{
+            color: #fff;
+            font-family:'Patua One', cursive;
+            padding:20px 0 50px 0;
+        }
+        p{
+            color: #ccc;  
+             
+        }
+
+       
+    }
+
+}

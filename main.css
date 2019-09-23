@@ -143,7 +143,7 @@ h3 {
 }
 
 .section1 .join-now {
-  background-image: url("imgs/about.jpg");
+  background-image: url("./imgs/about.jpg");
   background-size: cover;
   margin-top: -100px;
   padding: 40px 20px 40px 200px;
